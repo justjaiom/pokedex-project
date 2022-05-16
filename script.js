@@ -25,12 +25,17 @@ const fetchPokemon = () => {
 const displayPokemon = (pokemon) => {
     console.log(pokemon);
     const pokemonHTMLString = pokemon
+
+                                                      //atributes for the card
         .map(    
             (pokeman) => `
         <li class="card">
             <img class="card-image" src="${pokeman.image}"/>
             <h2 class="card-title">${pokeman.id}. ${pokeman.name}</h2>
             <p class="card-subtitle">Type: ${pokeman.type}</p>
+            <p class="card-subtitle">Height: ${pokeman.height}</p>  
+            <p class="card-subtitle">Weight: ${pokeman.weight}</p>
+            <p class="card-subtitle">Base expierience: ${pokeman.base_experience}</p>
         </li>
     `
         )
