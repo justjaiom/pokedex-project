@@ -1,6 +1,6 @@
 body {
     background-color: rgb(14, 78, 152);
-    color: white;
+    color: rgba(255, 166, 0, 0.939);
     margin: 0;
 
 }
@@ -26,25 +26,22 @@ h1 {
 .card {
     list-style: none;
     padding: 40px;
-    background-color: #f4f4f4;
+    background-color: rgba(255, 166, 0, 0.939);
     color: #222;
   text-align: center;
 }
 
-.card:hover {
-    animation: bounce 0.5s linear;
-}
 
 .card-title {
     text-transform: capitalize;
     margin-bottom: 0px;
     font-size: 32px;
-    font-weight: normal;
+    font-weight: darker;
 }
 .card-subtitle {
     margin-top: 5px;
-    color: rgb(101, 94, 94);
-    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
 }
 
 .card-image {
